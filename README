@@ -1,0 +1,149 @@
+﻿# 🗄️ Projet SQL Coty - Analyse des Ventes et Dashboards Lovable
+
+Bienvenue dans ce projet d'analyse de données pour Coty ! Ce dépôt contient une modélisation de données en étoile (Star Schema), des requêtes SQL analytiques et une chaîne de production de dashboards via Lovable.
+
+## Table des Matières
+- [Contexte](#-contexte)
+- [Modélisation des Données](#-modélisation-des-données)
+- [Requêtes SQL et Exports CSV](#-requêtes-sql-et-exports-csv)
+- [Création des Dashboards Lovable](#-création-des-dashboards-lovable)
+- [Description des Datasets](#-description-des-datasets)
+- [Analyses Réalisées](#-analyses-réalisées)
+- [Installation et Utilisation](#-installation-et-utilisation)
+- [Contribuer](#-contribuer)
+- [Licence](#-licence)
+
+---
+
+## Contexte
+
+L'objectif de ce projet est de démontrer une chaîne analytique complète :
+1. Modéliser une base analytique en étoile (Star Schema),
+2. Exécuter des requêtes SQL pour calculer les KPIs,
+3. Exporter les résultats en CSV,
+4. Importer les CSV dans Lovable et générer des dashboards esthétiquement travaillés.
+
+---
+
+## 🗄️ Modélisation des Données
+
+### 🔴 Table de Faits
+- **fact_sales** : Transactions de ventes (quantité, montant, date, prix, etc.)
+
+### 🔵 Tables de Dimensions
+- **dim_products** : produit, marque, catégorie, prix, date de lancement
+- **dim_stores** : magasin, région, type de point de vente
+- **dim_promotions** : promotion, période, taux de réduction
+- **dim_market** : indicateurs macro (taille marché, croissance)
+
+---
+
+## Requêtes SQL et Exports CSV
+
+Les requêtes SQL sont disponibles dans le dossier `Requetes_SQL/`, par exemple :
+- `CA mensuel.sql`
+- `Top produits par catégorie.sql`
+- `Performance par région et par type de magasin.sql`
+- `Impact des promotions par produit.sql`
+- `Taux de Croissance mensuelle.sql`
+
+### Processus d’export
+1. Exécuter la requête dans Snowflake ou un client SQL.
+2. Vérifier la qualité des données (format, valeurs NULL, cohérence).
+3. Exporter le résultat en CSV.
+4. Importer le CSV dans Lovable pour la construction du dashboard.
+
+---
+
+## Création des Dashboards avec Lovable
+
+### Workflow
+1. Ouvrir Lovable.
+2. Importer les CSV exportés (un fichier par requête).
+3. Utiliser le prompt pour décrire le rendu attendu (KPIs, diagrammes, filtres). 
+4. Personnaliser les styles (thème, palette, disposition).
+5. Exporter le dashboard final (image/PDF ou URL partageable).
+
+### Exemple de prompt Lovable
+- "Génère un dashboard avec 4 KPI (CA total, marge, volume, ROI promotionnel), un graphique en barres CA par catégorie, une courbe CA mensuel et une table de top produits."
+- "Ajoute des filtres par région et state, et une carte thermique des ventes par magasin."
+
+---
+
+## Description des Datasets
+
+### dim_products
+- Produits Coty et concurrents
+- Catégories : Fragrance, Makeup, Skincare
+- Prix, date de lancement
+
+### dim_stores
+- Enseignes (Sephora, Marionnaud, etc.)
+- Régions et types de points de vente
+
+### dim_promotions
+- Périodes de promo, codes, taux de réduction
+
+### fact_sales
+- +60 000 transactions simulées
+- Liens vers dim_products/dim_stores/dim_promotions
+
+### dim_market
+- Taille du marché, taux de croissance
+
+---
+
+## Analyses Réalisées
+
+1. Performance commerciale
+   - CA total, CA mensuel, croissance
+   - Top produits, top catégories
+   - Performance par région/type de magasin
+
+2. Analyse promotionnelle
+   - Impact promotionnel sur les ventes
+   - CA avec vs sans promotion
+   - ROI marketing
+
+3. Benchmark concurrentiel
+   - Parts de marché Coty vs concurrents
+   - Segments leaders
+
+---
+
+## Installation et Utilisation
+
+### Prérequis
+- Snowflake ou autre base de données SQL
+- Client SQL (Snowflake UI, DBeaver, etc.)
+- Accès à Lovable
+
+### Étapes
+1. Cloner le dépôt :
+   ```bash
+   git clone https://github.com/votre-repo/projet-sql-coty.git
+   cd projet-sql-coty
+   ```
+2. Charger les fichiers CSV du dossier `Data/` dans la base.
+3. Exécuter les fichiers SQL du dossier `Requetes_SQL/`.
+4. Exporter les résultats en CSV.
+5. Importer les fichiers CSV dans Lovable et générer le dashboard.
+
+---
+
+## 🤝 Contribuer
+
+1. Forker le projet
+2. Créer une branche `feature/`
+3. Ajouter/améliorer requêtes ou visualisation
+4. Ouvrir une Pull Request
+
+---
+
+## Licence
+
+MIT. Voir [LICENSE](LICENSE).
+
+---
+
+*Projet réalisé dans le cadre d'apprentissage en analyse de données.*

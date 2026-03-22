@@ -1,0 +1,31 @@
+STORE_ID,STORE_NAME,REGION,STORE_TYPE
+1,Galeries Lafayette Haussmann,Sud-Ouest,Hypermarket
+2,Marionnaud Nice Centre,Nord,Hypermarket
+3,Marionnaud La Défense,Nord,Department Store
+4,Galeries Lafayette Nice,Nord,Department Store
+5,Marionnaud La Défense,Île-de-France,Department Store
+6,Sephora Champs-Élysées,Nord,Parfumerie
+7,E.Leclerc Parapharmacie,Nord,Online
+8,Galeries Lafayette Nice,Ouest,Parfumerie
+9,Franprix Bastille,Nord,Hypermarket
+10,E.Leclerc Parapharmacie,Sud-Ouest,Parfumerie
+11,Monoprix Paris Opéra,Nord,Parfumerie
+12,Monoprix Paris Opéra,Île-de-France,Online
+13,E.Leclerc Parapharmacie,Sud,Parfumerie
+14,Carrefour Créteil Soleil,Île-de-France,Hypermarket
+15,E.Leclerc Parapharmacie,Ouest,Department Store
+16,Galeries Lafayette Haussmann,Île-de-France,Department Store
+17,Sephora Champs-Élysées,Sud,Online
+18,Nocibé Lille Centre,Sud-Ouest,Parfumerie
+19,Nocibé Marseille Vieux-Port,Est,Online
+20,Galeries Lafayette Haussmann,Ouest,Online
+21,Beauty Success Bordeaux,Est,Hypermarket
+22,Franprix Bastille,Sud,Parfumerie
+23,Nocibé Lille Centre,Ouest,Hypermarket
+24,Franprix Bastille,Sud,Parfumerie
+25,Printemps Beauté Paris,Sud-Ouest,Online
+26,Marionnaud Nice Centre,Sud-Ouest,Department Store
+27,Carrefour Créteil Soleil,Est,Department Store
+28,Nocibé Lille Centre,Sud,Parfumerie
+29,Franprix Bastille,Est,Parfumerie
+30,Franprix Bastille,Sud,Parfumerie

@@ -1,0 +1,51 @@
+PRODUCT_ID,PRODUCT_NAME,BRAND,CATEGORY,PRICE,LAUNCH_DATE
+1,Garnier Micellar Water Serum,LVMH,Makeup,133.08,2020-02-13
+2,Marc Jacobs Daisy EDP,Beiersdorf,Skincare,34.89,2018-04-22
+3,Max Factor Facefinity Serum,Chanel,Fragrance,147.25,2021-02-17
+4,Burberry Her Mascara,L'Oréal,Makeup,40.06,2022-04-20
+5,Nivea Soft Cream Cream,Coty,Skincare,21.73,2020-06-28
+6,Adidas Dynamic Pulse EDT,LVMH,Fragrance,93.32,2022-07-12
+7,Max Factor Facefinity Mascara,L'Oréal,Skincare,95.94,2022-05-11
+8,Chanel No.5 Serum,Coty,Fragrance,142.36,2023-01-12
+9,YSL Black Opium EDT,L'Oréal,Makeup,18.19,2020-06-16
+10,Garnier Micellar Water Mascara,L'Oréal,Fragrance,122.11,2023-03-16
+11,Gucci Bloom EDT,Coty,Skincare,29.16,2018-07-12
+12,Dior Sauvage EDT,L'Oréal,Fragrance,55.72,2021-11-22
+13,YSL Black Opium Serum,Coty,Fragrance,48.67,2021-02-11
+14,Lancaster Sun Beauty EDT,Beiersdorf,Fragrance,102.01,2022-06-05
+15,Lancaster Sun Beauty EDT,LVMH,Skincare,54.21,2018-07-01
+16,Chloé Signature Mascara,Beiersdorf,Fragrance,114.44,2021-02-22
+17,L'Oréal Revitalift Serum,Beiersdorf,Skincare,62.88,2020-09-18
+18,Marc Jacobs Daisy Serum,Estée Lauder,Makeup,96.74,2021-11-29
+19,Calvin Klein Euphoria Serum,Estée Lauder,Makeup,95.24,2019-04-05
+20,Marc Jacobs Daisy Cream,L'Oréal,Skincare,84.55,2019-02-07
+21,Hugo Boss Bottled Cream,Estée Lauder,Skincare,61.76,2022-01-16
+22,Hugo Boss Bottled Cream,L'Oréal,Skincare,132.75,2019-02-05
+23,Hugo Boss Bottled Mascara,Coty,Fragrance,56.05,2020-11-16
+24,L'Oréal Revitalift EDT,Beiersdorf,Makeup,15.8,2021-08-13
+25,Dior Sauvage Serum,LVMH,Makeup,89.25,2018-03-24
+26,Philosophy Amazing Grace EDT,LVMH,Skincare,90.19,2020-01-19
+27,Calvin Klein Euphoria Mascara,Estée Lauder,Makeup,39.13,2018-05-21
+28,Lancaster Sun Beauty Serum,L'Oréal,Fragrance,75.42,2019-05-31
+29,Lancaster Sun Beauty Mascara,Beiersdorf,Fragrance,89.5,2021-05-09
+30,Philosophy Amazing Grace Serum,Coty,Fragrance,138.92,2022-09-14
+31,Max Factor Facefinity Mascara,Beiersdorf,Skincare,130.54,2021-01-23
+32,Estée Lauder Double Wear Cream,Coty,Makeup,15.85,2021-02-10
+33,L'Oréal Revitalift Serum,L'Oréal,Fragrance,120.1,2020-08-27
+34,Philosophy Amazing Grace EDT,Coty,Makeup,138.26,2019-03-27
+35,Chanel No.5 Cream,Coty,Fragrance,56.45,2018-05-17
+36,Philosophy Amazing Grace Mascara,LVMH,Makeup,95.42,2019-11-24
+37,Nivea Soft Cream EDT,Chanel,Makeup,111.89,2022-01-21
+38,Burberry Her Serum,Beiersdorf,Skincare,61.9,2018-04-22
+39,Chanel No.5 Serum,Coty,Fragrance,134.31,2022-02-20
+40,Hugo Boss Bottled Serum,Coty,Makeup,104.82,2020-01-14
+41,Hugo Boss Bottled Serum,LVMH,Makeup,32.63,2019-02-09
+42,Philosophy Amazing Grace EDP,LVMH,Skincare,72.32,2021-05-28
+43,Rimmel Lash Accelerator Cream,LVMH,Makeup,27.2,2018-05-02
+44,Estée Lauder Double Wear Mascara,Estée Lauder,Makeup,23.63,2021-11-25
+45,OPI Big Apple Red Serum,L'Oréal,Skincare,68.51,2021-10-12
+46,Philosophy Amazing Grace EDT,Chanel,Skincare,47.61,2019-09-19
+47,Marc Jacobs Daisy EDP,LVMH,Skincare,124.3,2019-03-27
+48,Dior Sauvage EDT,Estée Lauder,Skincare,56.24,2019-10-25
+49,Chloé Signature Serum,Coty,Fragrance,94.33,2020-05-16
+50,YSL Black Opium EDT,Beiersdorf,Fragrance,132.38,2019-03-30
