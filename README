@@ -14,6 +14,27 @@ Bienvenue dans ce projet d'analyse de données pour Coty ! Ce dépôt contient u
 - [Licence](#-licence)
 
 ---
+## 🌐 Dashboard interactif
+
+👉 Accéder au dashboard :
+
+🔗 https://golden-sparkle-vision.lovable.app/
+
+Ce dashboard a été réalisé avec **Lovable** à partir des résultats de requêtes SQL exportées en CSV.
+
+### 🎯 Objectif
+- Visualiser les performances commerciales
+- Analyser les tendances du marché
+- Identifier des opportunités stratégiques
+
+### 🧩 Fonctionnalités
+- KPI globaux
+- Évolution du marché
+- Top produits
+- Impact des promotions
+- Analyse géographique
+- Parts de marché
+- Recommandations business
 
 ## Contexte
 
